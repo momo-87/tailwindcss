@@ -13,6 +13,13 @@ module.exports = {
         'color-blob': '#a427df',
       },
     },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '20px',
+        md: '50px',
+      },
+    },
   },
   plugins: [],
 };
