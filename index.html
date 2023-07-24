@@ -32,9 +32,6 @@
       <div id="hamburger" class="lg:hidden cursor-pointer z-50">
         <i class="fa-solid fa-bars"></i>
       </div>
-      <!-- <div id="xmark" class="cursor-pointer hidden z-50">
-        <i class="fa-solid fa-xmark"></i>
-      </div> -->
 
       <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
         <ul class="h-full grid place-items-center py-20">
@@ -45,11 +42,38 @@
           <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200 hLink">Blog</a></li>
           <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200 hLink">Contact</a></li>
 
-          <li><button class="bg-color-secondary px-9 py-3 rounded-md font-bold hover:opacity-80 ease-in duration-200 capitalize">free trial</button></li>
+          <li><button class="btn">free trial</button></li>
         </ul> 
       </div>
     </nav>
   </header>
+
+  <main>
+    <section id="home" class="relative">
+
+      <div class="absolute w-80 h-80 bg-color-blob top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full "></div>
+      <div class="absolute w-80 h-80 bg-color-secondary bottom-0 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full "></div>
+
+      <div class="container py-20">
+        <div class="flex flex-col items-center z-20 md:flex-row">
+          <div class="text-center mb-12 md:text-left md:w1/2 md:pr-10">
+            <h1 class="title">Awesome App for Your Financial.</h1>
+            <p class="leading-relaxed mb-10">
+              This should be used to tell a story and let your users hnow a little more about the app and it's use, how can benefit them. 
+            </p>
+            <button class="btn">Download App</button>
+          </div>
+
+          <div>
+            <img class="md:w-1/2" src="./assets/hero.png" alt="hero image">
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+  </main>
   
   <script>
     // open mobile menu
