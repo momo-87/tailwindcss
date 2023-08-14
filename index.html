@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banking Website</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-color-primary text-color-white tracking-wide">
+
+  <header>
+
+    <nav class="container flex justify-between items-center">
+      <div class=" text-color-secondary font-bold text-3xl py-5">
+        <a href="#home">
+          <span class="text-color-white">Mo</span>Mo.
+        </a>
+      </div>
+      <div>
+        <ul class="hidden lg:flex space-x-6 items-center ">
+          <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+          <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+          <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+          <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+          <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+          <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+          <li><button class="btn">free trial</button></li>
+        </ul>
+      </div>
+
+      <!-- Mobile screen start -->
+      <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+        <ul class="h-full grid place-items-center py-20">
+          <li><a href="#home" class="hover:text-color-secondary ease-in duration-200 hLink">Home</a></li>
+          <li><a href="#features" class="hover:text-color-secondary ease-in duration-200 hLink">Features</a></li>
+          <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200 hLink">Testimonial</a></li>
+          <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200 hLink">Pricing</a></li>
+          <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200 hLink">Blog</a></li>
+          <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200 hLink">Contact</a></li>
+          <li><button class="btn">free trial</button></li>
+        </ul> 
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="relative">
+
+      <div class="blob1 "></div>
+      <div class="blob2"></div>
+
+      <div class="container py-20">
+        <div class="flex flex-col items-center z-20 md:flex-row">
+          <div class="text-center mb-12 md:text-left md:w1/2 md:pr-10">
+            <h1 class="title">Awesome App for Your Financial.</h1>
+            <p class="leading-relaxed mb-10">
+              This should be used to tell a story and let your users hnow a little more about the app and it's use, how can benefit them. 
+            </p>
+            <button class="btn">Download App</button>
+          </div>
+
+          <div>
+            <img class="md:w-1/2" src="./assets/hero.png" alt="hero image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="features" class="bg-color-primary-light">
+      <div class="container py-20">
+        <div class="text-center m-auto mb-20 md:w-1/2">
+          <h4 class="font-bold text-color-secondary mb-4">Our Future</h4>
+          <h1 class="title">Easily Manage Your Payments With Our APP</h1>
+        </div>
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
+          <!-- card no 1 -->
+          <div class=" flex flex-col items-center border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+            <div class="bg-color-secondary rounded-2xl py-5 w-20 h-20">
+              <i class="fa-solid fa-calendar-days text-4xl"></i>
+            </div>
+            <h3 class="text-xl font-bold py-4">Expense Tracking</h3>
+            <p class="leading-relaxed">We use an application designed to track your expenses</p>
+          </div>
+
+          <!-- card no 2 -->
+          <div class=" flex flex-col items-center border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+            <div class="bg-color-secondary rounded-2xl py-5 w-20 h-20">
+              <i class="fa-solid fa-calendar-days text-4xl"></i>
+            </div>
+            <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+            <p class="leading-relaxed">We use an application designed to track your expenses</p>
+          </div>
+
+          <!-- card no 3 -->
+          <div class=" flex flex-col items-center border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+            <div class="bg-color-secondary rounded-2xl py-5 w-20 h-20">
+              <i class="fa-solid fa-calendar-days text-4xl"></i>
+            </div>
+            <h3 class="text-xl font-bold py-4">Support 24/24</h3>
+            <p class="leading-relaxed">We use an application designed to track your expenses</p>
+          </div>
+      </div>
+    </section>
+
+    <section id="saving-money">
+      <div class="container py-20 relative">
+        <div class="blob1 "></div>
+        <div class="blob2"></div>
+
+        <div class="flex flex-col items-center justify-between md:flex-row">
+          <div class="mb-12 md:w-1/2">
+            <img src="./assets/cashback.png" alt="cashback">
+          </div>
+          <div class="text-center md:text-left md:w-1/2 md:ml-20">
+            <h4 class="font-bold text-color-secondary mb-4">Saving Money</h4>
+            <h1 class="title">Best Financing App To Save Your Money</h1>
+            <p class="leading-relaxed mb-10">Best financing app ever build in the world. Easy to use and very friendly for mobile banking. You can control yoour card and send money to someone just an a click.</p>
+            <button class="btn">Read more</button>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="bg-color-primary-light">
+      <div class="container py-20">
+        <div class="text-center m-auto mb-20 md:w-1/2">
+          <h4 class="font-bold text-color-secondary mb-4">How it works</h4>
+          <h1 class="title">Grow Up Your Saving</h1>
+        </div>
+
+        <div class="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+          <!-- card 1 -->
+          <div class="text-center cursor-pointer">
+            <div class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+              <p class="text-6xl">1</p>              
+            </div>
+            <h3 class="text-xl font-bold py-4">Install The App</h3>
+            <p class="leading-relaxed">We use an application designed to track your expenses</p>
+          </div>
+
+          <!-- card 2 -->
+          <div class="text-center cursor-pointer">
+            <div class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+              <p class="text-6xl">2</p>              
+            </div>
+            <h3 class="text-xl font-bold py-4">Setup Your Profile</h3>
+            <p class="leading-relaxed">We use an application designed to track your expenses</p>
+          </div>
+
+          <!-- card 3 -->
+          <div class="text-center cursor-pointer">
+            <div class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+              <p class="text-6xl">3</p>              
+            </div>
+            <h3 class="text-xl font-bold py-4">Enjoy the Features</h3>
+            <p class="leading-relaxed">We use an application designed to track your expenses</p>
+          </div>
+</div>
+      </div>
+    </section>
+
+
+
+
+  </main>
+  
+  <script>
+    // open mobile menu
+    const hamburger = document.querySelector('#hamburger');
+    const menu = document.querySelector('#menu');
+    const faSolide = document.querySelector('.fa-solid');
+    const hLink = document.querySelectorAll('.hLink');
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+      faSolide.classList.toggle('fa-xmark');
+    })
+    hLink.forEach((link) => {
+      link.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+        faSolide.classList.toggle('fa-xmark');
+      })
+    })
+  </script>
+</body>
+</html> 
